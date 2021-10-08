@@ -1,0 +1,440 @@
+*{box-sizing: border-box;}
+@font-face{
+    font-family: BLKCHCRY;
+      src:url('../blackchancery/BLKCHCRY.TTF');   
+}
+/* *{margin: 0;} */
+
+.heading p{
+    margin: 0;
+}
+#headingimage{
+    position: absolute;
+    left:10%;
+    
+}
+
+#contact{
+    position: absolute;
+    right:10%;
+     
+}
+
+.defaultfresh:hover{
+    background-color: lightgreen;
+    color: black;
+}
+ 
+
+
+.defaultfresh{
+position:relative;
+width: 250px;
+height: 50px;
+margin-top: 10px;
+background-color:skyblue; 
+border-color:skyblue;
+
+
+}
+
+.content{
+    width: 100%;
+    height: 850px;
+    /* padding: 20px; */
+    margin: 60px auto;
+    /* border: 8px solid white ; */
+    background-image:url('../IMG/remote-performance-interview.jpg' );
+    background-size: cover;
+}
+
+.heading{
+    position: absolute;
+    top:40%;
+    left:50%;
+    text-align: center;
+    padding: 35px 35px 35px 35px;
+}
+
+
+.demo1{
+    position: absolute;
+    top:45%;
+    left:67%;
+    background-color: rgb(70, 61, 61);
+        height: 310px;
+        width: 250px;
+        float:left; margin-left: 6%;
+        text-align: center;
+        color: white;
+}
+
+
+.demo2{
+    height:150px ;
+}
+    
+
+.fresh{background-color: skyblue;
+    border: 1px solid skyblue; 
+    width: 180px; 
+    height:25px;}
+
+    .fresh:hover{
+       background-color:lightgreen; color:black;
+    }
+
+ .heading2{
+     text-align: center;
+     font-size:40px ;
+     color: navy;
+}
+
+   .heading1{
+       text-align: center;
+
+
+}
+
+  .para1{
+    font-size: 20px;
+}
+
+
+
+
+
+section div{
+    position: relative;
+    background-color:skyblue;
+    height: 80px;
+    width: 80px;
+    float:left; margin-left: 2%;
+    margin-bottom: 55px;
+    
+}
+
+#br1{border-radius: 38px 38px 38px 38px;
+    left: 100px;
+}
+ #brk1{
+    position: absolute;
+    top:42%;
+    left:38%;
+    
+
+}
+
+
+#br2{border-radius: 38px 38px 38px 38px;
+    
+    left: 348px;}
+
+ #brk2{
+     position:absolute;
+     top: 41%;
+     left: 39%;
+ }
+
+#br3{border-radius: 38px 38px 38px 38px;
+    left: 550px;
+}
+
+#brk3{
+    position: absolute;
+    top: 41%;
+    left: 42%;
+    
+}
+
+
+#br4{border-radius: 38px 38px 38px 38px;
+    left:800px ;
+}
+
+#brk4{
+    position: absolute;
+    top: 41%;
+    left: 41%;
+
+}
+
+#br1:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
+
+#br2:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
+
+
+#br3:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
+
+
+#br4:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
+
+
+.demo5{
+    position: absolute;
+    font-size: 12.5px;
+    text-align: justify;
+    /* background-color:black;
+    height: 150px;
+    width: 150px; */
+    top: 220%;
+    left: 10%;
+}
+
+
+
+
+.demo6{
+    position: absolute;
+    font-size: 12.5px;
+    text-align: justify;
+    /* background-color:black;
+    height: 150px;
+    width: 150px; */
+    top: 220%;
+    left: 34%;
+}
+
+.demo7{
+    position: absolute;
+    font-size: 12.5px;
+    text-align: justify;
+    /* background-color:black;
+    height: 150px;
+    width: 150px; */
+    top: 220%;
+    left: 56%;
+}
+   
+.demo8{
+    position: absolute;
+    font-size: 12px;
+    text-align: justify;
+    /* background-color:black;
+    height: 150px;
+    width: 150px; */
+    top: 220%;
+    left: 80%;
+}
+
+ 
+    #demo3{
+     position: absolute;
+     top: 250%;
+     background-color:skyblue;
+    
+    height: 350px;
+    width: 100%;
+    margin-left: 0%;
+}
+
+#img{
+    position:absolute;
+    background-color:0%;
+    margin-top:2%;
+    left:15%;
+    height: 300px;
+    width: 500px;
+    background-image: url('../IMG/master-card-gold.jpg');
+    background-size: cover;
+    border-radius: 10px;
+
+} 
+
+.demo9{
+    position:absolute;
+    background-color:0%;
+    margin-top:2%;
+    left:60%;
+    height: 300px;
+    width: 259px;
+    font-size: 15.5px;
+}
+
+.btnHover{background-color: /*skyblue;*/
+    border 1px solid /* skyblue;*/ height 35px;
+
+
+}
+
+
+.btnHover:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
+
+
+.demo10{
+   position: absolute;
+   top: 310%;
+   background-color:0%;
+   height: 350px;
+   width: 100%;
+   left: 20%;
+}
+
+.btnHover2:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
+#img2{
+    position:absolute;
+    background-color:0%;
+    top: 5%;
+    left:25%;
+    height: 300px;
+    width: 500px;
+    background-image: url('../IMG/IMG-20190601-WA0047.jpg');
+    background-size: cover;
+    border-radius: 10px;
+
+} 
+
+.demo11{
+    position: absolute;
+    top: 363%;
+    background-color:gray;
+    height: 590px;
+    width: 100%;
+    left: 0%;
+    text-align: center;
+    font-family: BLKCHCRY;
+    font-size: 22px;
+ }
+
+
+ .img3{
+    position:absolute;
+    background-color:0%;
+    top: 10%;
+    left:20%;
+    height: 500px;
+    width: 500px;
+    background-image: url('../IMG/messenger-oak.png');
+    background-size: cover;
+    border-radius: 0px;}
+    
+    #demo12{
+    position:absolute;
+    color:palevioletred;
+    top: 25%;
+    left:65%;
+    font-size: 40px;
+    font-family: BLKCHCRY;
+    animation: investor 2s infinite forwards;
+    width: 425px;
+    border-radius: 70px 70px 70px 0px;
+
+    }
+
+    
+@keyframes investor {
+    0% {background-color: tomato; }
+    25%{background-color: navy; }
+    50%{background-color: rgb(135, 208, 235);}
+    75%{background-color:silver; }
+    80%{background-color:violet ; }
+    90%{background-color: lightgreen; }
+    100%{background-color: gray; }
+
+
+    }
+    
+    .demo13{
+        position: absolute;
+        top: 460%;
+        /* height: 590px;
+        width: 100%; */
+        left: 5%;
+        
+
+
+    }
+
+    .demo14{
+        position: absolute;
+        top: 460%;
+        /* height: 590px;
+        width: 100%; */
+        left: 35%;
+        
+
+
+    }
+
+    .demo15{
+        position: absolute;
+        top: 460%;
+        /* height: 590px;
+        width: 100%; */
+        left: 65%;
+        
+
+
+    }
+
+    .demo16{
+        position: absolute;
+        top: 500%;
+        height: 50px;
+        width: 100%;
+        background-color: skyblue;
+        text-align: center;
+        font-family:  BLKCHCRY;
+        font-size: 20px;
+        animation: foot 2s infinite forwards;
+    }
+
+    @keyframes foot {
+        0% {background-color: tomato; }
+        25%{background-color: palevioletred; }
+        50%{background-color: rgb(135, 208, 235);}
+        75%{background-color:silver; }
+        80%{background-color:violet ; }
+        90%{background-color: lightgreen; }
+        100%{background-color: gray; }
+    }
+
+    #demo15{
+        position: absolute;
+        top: 494.5%;}
+
+        /* @media only screen and (max-width :600px){
+            #headingimage,#contact,.content,.heading,.demo1,.demo2,.defaultfresh,.heading1,.heading2,.para1{width: 100%; height: auto ;}
+            .brk,#br1,#br2,#br3,#br4,#brk1,#brk2,#brk3,#brk4,.demo4,.demo5,.demo6,.demo7,.demo8,.demo9,.demo10{width: 100%; height: auto ;}
+            .demo11,.demo12,.demo13,.demo14,#demo15{width: 100%; height: auto ;}
+            
+        }
+
+        @media only screen and (max-width :500px){
+            body{text-align: left; }
+            body{
+                display: flex;
+                flex-direction:column;
+            }
+
+
+        @media only screen and(orientation: landscape){
+            body{background-color: aqua;}
+        }
+         */
+
+    
